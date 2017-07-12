@@ -46,6 +46,7 @@ function PropertyValuePart(text, line, col, optionalHint) {
 
             case "em":
             case "rem":
+            case "rpx": // support rpx
             case "ex":
             case "px":
             case "cm":
